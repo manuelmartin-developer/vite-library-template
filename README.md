@@ -60,13 +60,7 @@
     - [ ] Specify proper values for the `name`, `author`, `description`, `keywords`, `version`, `license`, `repository`, `bugs`, `homepage` and `publishConfig` properties
     <br/>
    - [ ] Change the author in `LICENSE` file
-  
-   ```
-    MIT License
 
-    Copyright (c) 2024 Your Name
-   ```
-   
     <br/>
 
    - [ ] Clean up this `README.md` file and fill it with your own information
