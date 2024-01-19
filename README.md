@@ -18,12 +18,16 @@
 ## ⚡ Using this Vite template
 
 1. Create your project based on this template:
+  <br />
+
    - If you want to create a GitHub repository, we would recommend to use the GitHub "Use this template" button and clone your newly created repository
     - If you want to create a local project, you can clone this repository and then change the remote origin to your own repository
 
 <br/>
 
 2. Update your project information:
+  <br />
+
     - [ ] Update the `package.json` with your project information:
     
      ```
@@ -56,6 +60,7 @@
     - [ ] Specify proper values for the `name`, `author`, `description`, `keywords`, `version`, `license`, `repository`, `bugs`, `homepage` and `publishConfig` properties
     <br/>
    - [ ] Change the author in `LICENSE` file
+  
    ```
     MIT License
 
