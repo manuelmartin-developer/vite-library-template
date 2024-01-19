@@ -1,7 +1,22 @@
 {
   "name": "@{user_name}/{repo-name}",
+  "author": "{user_name}",
   "description": "Library description",
+  "keywords": [
+    "react",
+    "awesome",
+    "library"
+  ],
   "version": "0.0.1",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+your-repo-url.git"
+  },
+  "bugs": {
+    "url": "https://your-repo-url/issues"
+  },
+  "homepage": "https://your-repo-url#readme",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/@{USER_NAME}"
   },
@@ -29,9 +44,6 @@
     "test:ui": "vitest --ui",
     "storybook": "storybook dev -p 6006"
   },
-  "keywords": [],
-  "author": "",
-  "license": "MIT",
   "peerDependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
@@ -40,7 +52,6 @@
     "@storybook/addon-essentials": "^7.6.10",
     "@storybook/addon-interactions": "^7.6.10",
     "@storybook/addon-links": "^7.6.10",
-    "@storybook/addon-onboarding": "^1.0.10",
     "@storybook/blocks": "^7.6.10",
     "@storybook/react": "^7.6.10",
     "@storybook/react-vite": "^7.6.10",
