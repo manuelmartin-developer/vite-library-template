@@ -66,12 +66,17 @@
 
     Copyright (c) 2024 Your Name
    ```
+   
     <br/>
 
    - [ ] Clean up this `README.md` file and fill it with your own information
+
     <br/>
 
 3. Set up your GitHub Actions workflow:
+
+    <br/>
+
    - [ ] If you do **not** wish to publish to npm, you can delete the `.github/workflows/publish.yml` file or disable the workflow in the GitHub Actions settings.
 
 ## 📚 Documentation
