@@ -26,7 +26,7 @@
 <br/>
 
 2. Update your project information:
-  <br />
+
 
     - [ ] Update the `package.json` with your project information:
     
@@ -55,8 +55,6 @@
             },
       }
      ```
-     
-    <br/>
 
     - [ ] Specify proper values for the `name`, `author`, `description`, `keywords`, `version`, `license`, `repository`, `bugs`, `homepage` and `publishConfig` properties
     <br/>
