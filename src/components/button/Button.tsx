@@ -1,9 +1,9 @@
 export interface ButtonProps {
-  text: string;
-  primary: boolean;
-  disabled: boolean;
-  size: "small" | "medium" | "large";
-  onClick: () => void;
+  text?: string;
+  primary?: boolean;
+  disabled?: boolean;
+  size?: "small" | "medium" | "large";
+  onClick?: () => void;
 }
 const Button = ({
   text = "Button",
