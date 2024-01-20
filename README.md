@@ -92,9 +92,11 @@ This template comes with Jest configured to run unit tests of each component. Al
 
 ### Unit tests
 
-`npm run test`: Run unit tests with Jest and React Testing Library
-`npm run test:watch`: Run unit tests on watch mode
-`npm run test:ui`: Run unit tests with Jest on visual mode
+- `npm run test`: Run unit tests with Jest and React Testing Library
+
+- `npm run test:watch`: Run unit tests on watch mode
+
+- `npm run test:ui`: Run unit tests with Jest on visual mode
 
 ## 💅 Prettier
 

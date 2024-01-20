@@ -20,8 +20,8 @@ export default defineConfig({
   },
   plugins: [dts()], // Uses the 'vite-plugin-dts' plugin for generating TypeScript declaration files (d.ts).
   test: {
-    globals: true,
-    environment: "jsdom",
-    setupFiles: "./setupTests.ts",
-  }, // Configures the 'vite-plugin-react' plugin for testing.
+    globals: true, // Injects global variables into all test files.
+    environment: "jsdom", // Configures the test environment for Jest.
+    setupFiles: "./setupTests.ts", // Specifies the setup file for Jest.
+  },
 });
