@@ -18,54 +18,54 @@
 ## ⚡ Using this Vite template
 
 1. Create your project based on this template:
-  <br />
+   <br />
 
    - If you want to create a GitHub repository, we would recommend to use the GitHub "Use this template" button and clone your newly created repository
-    - If you want to create a local project, you can clone this repository and then change the remote origin to your own repository
+   - If you want to create a local project, you can clone this repository and then change the remote origin to your own repository
 
 <br/>
 
 2. Update your project information:
 
+   - [ ] Update the `package.json` with your project information:
 
-    - [ ] Update the `package.json` with your project information:
-    
-     ```
-      {
-        "name": "@{user_name}/{repo-name}",
-        "author": "{user_name}",
-        "description": "Library description",
-        "keywords": [
-                "react",
-                "awesome",
-                "library"
-                ],
-        "version": "0.0.1",
-        "license": "MIT",
-        "repository": {
-                "type": "git",
-                "url": "git+your-repo-url.git"
-            },
-        "bugs": {
-                "url": "https://your-repo-url/issues"
-            },
-        "homepage": "https://your-repo-url#readme",
-        "publishConfig": {
-                "registry": "https://npm.pkg.github.com/@{USER_NAME}"
-            },
-      }
-     ```
+   ```
+    {
+      "name": "@{user_name}/{repo-name}",
+      "author": "{user_name}",
+      "description": "Library description",
+      "keywords": [
+              "react",
+              "awesome",
+              "library"
+              ],
+      "version": "0.0.1",
+      "license": "MIT",
+      "repository": {
+              "type": "git",
+              "url": "git+your-repo-url.git"
+          },
+      "bugs": {
+              "url": "https://your-repo-url/issues"
+          },
+      "homepage": "https://your-repo-url#readme",
+      "publishConfig": {
+              "registry": "https://npm.pkg.github.com/@{USER_NAME}"
+          },
+    }
+   ```
 
-    - [ ] Specify proper values for the `name`, `author`, `description`, `keywords`, `version`, `license`, `repository`, `bugs`, `homepage` and `publishConfig` properties
+   - [ ] Specify proper values for the `name`, `author`, `description`, `keywords`, `version`, `license`, `repository`, `bugs`, `homepage` and `publishConfig` properties.
+
     <br/>
    - [ ] Change the author in `LICENSE` file
-  
+
    ```
     MIT License
 
     Copyright (c) 2024 Your Name
    ```
-   
+
     <br/>
 
    - [ ] Clean up this `README.md` file and fill it with your own information
@@ -113,13 +113,13 @@ This template comes with Jest configured to run unit tests of each component. Al
 
 - For it to work you will need to add an `NPM_TOKEN` secret to your repo:
 
-    - Create an automation token in NPM
-    - [Documentation on npm tokens](https://docs.npmjs.com/about-access-tokens) and how to create them
-    - Go to your GitHub Repository Settings / Secrets / Actions
-    - Click on the "New repository secret" button
-    - Fill in the form:
-        - Name: `NPM_TOKEN`
-        - Secret: the NPM token value
+  - Create an automation token in NPM
+  - [Documentation on npm tokens](https://docs.npmjs.com/about-access-tokens) and how to create them
+  - Go to your GitHub Repository Settings / Secrets / Actions
+  - Click on the "New repository secret" button
+  - Fill in the form:
+    - Name: `NPM_TOKEN`
+    - Secret: the NPM token value
 
 Read the [full documentation on the npm-publish action](https://github.com/JS-DevTools/npm-publish).
 
@@ -132,7 +132,6 @@ Read the [full documentation on the npm-publish action](https://github.com/JS-De
 - [Husky](https://typicode.github.io/husky/#/) for Git hooks
 - [Jest](https://jestjs.io) with [React Testing Library](https://testing-library.com/docs/react-testing-library/intro) for the unit tests
 - [GitHub Action Workflows](https://github.com/features/actions) set up to run tests and linting on push
-
 
 ## 🔀 Related information
 
