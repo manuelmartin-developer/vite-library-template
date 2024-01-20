@@ -58,6 +58,7 @@
    - [ ] Specify proper values for the `name`, `author`, `description`, `keywords`, `version`, `license`, `repository`, `bugs`, `homepage` and `publishConfig` properties.
 
     <br/>
+    
    - [ ] Change the author in `LICENSE` file
 
    ```
