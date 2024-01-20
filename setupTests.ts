@@ -1,4 +1,5 @@
 import { expect } from "vitest";
+import "@testing-library/jest-dom";
 import * as matchers from "@testing-library/jest-dom/matchers";
 import { TestingLibraryMatchers } from "@testing-library/jest-dom/matchers";
 declare module "vitest" {
